@@ -2,6 +2,10 @@ public class CreateStrings {
     public static void main(String[] args) {
         char[] helloArray = { 'H', 'e','l','l','o','!'};
         String hello1 = new String(helloArray);
+        byte[] ascii = {65, 66, 67};
+        String fromASCII = new String(ascii);
+        System.out.println(fromASCII);
+
         String hello2 = "Hello!";
         String hello3 = new String("Hello!");
 
